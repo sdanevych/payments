@@ -1,0 +1,113 @@
+body {
+    background: url("/payments/assets/img/client_background.jpg");
+    background-size: 100%;
+}
+
+.hello-user{
+    background-color:#9bd0e5;
+    color:#187295;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+}
+
+.hello-user h4 {
+    font-weight: 600;
+}
+
+button {
+    white-space: pre-line;
+}
+
+
+#app-title {
+    color: #2a2ada;
+    font-size: 40px;
+}
+
+#page-title{
+    color: #2a2ada;
+    font-size: 30px;
+}
+
+p {
+    white-space: pre-line;
+}
+
+#form-header {
+    margin-top: 37px;
+    color: #2a2ada;
+    font-size: 24px;
+}
+
+.pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.pagination .pagination-link {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  
+.pagination-item:first-child .pagination-link {
+    margin-left: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .pagination-item:last-child .pagination-link {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+.pagination-item.active .pagination-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #1b83fa;
+    border-color: #1b83fa;
+}
+  
+.pagination-item.disabled .pagination-link {
+    color: #797c85;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #d3d9df;
+}
+
+.nav nav-pills nav-stacked .a {
+    font-size: 25px;
+}
+
+
+.row.content {
+    padding: 0;
+    height: 550px;
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #dddddd;
+}
+
+.row-content {
+    padding-top: 10%;
+  }
+
+/* @media screen and (max-width: 800px) {
+    .row.content {height: auto;}
+} */
+
+/* .td {
+    vertical-align: middle;
+}
+
+goodResult {
+    color: lawngreen;
+} */
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!--<Resource
+        name="jdbc/payments"
+        global="jdbc/payments"
+        type="javax.sql.DataSource"
+        factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+        username="payments-app"
+        password="S1mpleP@y"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        description="MySQL database"
+        url="jdbc:mysql://localhost:3306/payments?allowMultiQueries=true&amp;useUnicode=true&amp;characterEncoding=UTF-8"
+        maxTotal="100"
+        maxIdle="30"
+        maxWaitMillis="10000"
+        removeAbandonedTimeout="60"
+        defaultAutoCommit="true" />-->
+</Context>
+

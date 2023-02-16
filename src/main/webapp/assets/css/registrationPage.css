@@ -1,0 +1,130 @@
+body {
+    font: 12px 'Lucida Sans Unicode', 'Trebuchet MS', Arial, Helvetica;
+    margin: 0;
+    background: url("/payments/assets/img/main_background.jpg");
+    background-size: 100%;
+}
+
+
+#login {
+    background: linear-gradient(45deg, #e7b556, #b99145);
+    height: 850px;
+    width: 400px;
+    margin: -150px 0 0 -230px;
+    padding: 30px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+
+#login:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    color: #ffe685;
+    margin: 0 0 30px 0;
+    letter-spacing: 4px;
+    font: "Sansita Swashed", cursive;
+    position: relative;
+}
+
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 10px;
+}
+
+
+#inputs input {
+    background: #f1f1f1;
+    padding: 15px 15px 15px 30px;
+    margin: 0 0 10px 0;
+    width: 353px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+}
+
+
+#email {
+    background-position: 5px -2px !important;
+}
+
+
+#password {
+    background-position: 5px -52px !important;
+}
+
+
+#inputs input:focus {
+    background-color: #fff;
+    border-color: #e8c291;
+    outline: none;
+    box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+
+#submit {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d69e31 #e3a037 #d5982d #e3a037;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #b1762f;
+}
+
+
+#submit:hover,#submit:focus {
+    background-color: #fddb6f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+    background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: linear-gradient(top, #ffb94b, #fddb6f);
+}
+
+
+#submit:active {
+    outline: none;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+
+#submit::-moz-focus-inner {
+    border: none;
+}
+
+#fail {
+    color: rgb(197, 19, 55);
+    font-size: 22;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+error {
+    color: crimson;
+    white-space: pre-line;
+}

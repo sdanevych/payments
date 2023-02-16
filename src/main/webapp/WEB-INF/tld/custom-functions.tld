@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+    <tlib-version>1.0</tlib-version>
+    <short-name>functions</short-name>
+    <uri>custom-functions</uri>
+    <function>
+        <name>contains</name>
+        <function-class>com.epam.payments.tag.Functions</function-class>
+        <function-signature>boolean contains(java.util.List, java.lang.Object)</function-signature>
+    </function>
+    <function>
+        <name>removeMillisecondPart</name>
+        <function-class>com.epam.payments.tag.Functions</function-class>
+        <function-signature>java.lang.String removeMillisecondPart(java.util.Date)</function-signature>
+    </function>
+    <function>
+        <name>getCurrentJsp</name>
+        <function-class>com.epam.payments.tag.Functions</function-class>
+        <function-signature>java.lang.String getCurrentJsp(jakarta.servlet.http.HttpServletRequest)</function-signature>
+    </function>
+</taglib>
